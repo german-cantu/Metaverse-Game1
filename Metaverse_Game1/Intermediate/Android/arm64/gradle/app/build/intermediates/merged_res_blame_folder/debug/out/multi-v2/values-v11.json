@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.YourCompany.Metaverse_Game1.app-mergeDebugResources-13:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "184"
+                    }
+                }
+            ]
+        }
+    ]
+}

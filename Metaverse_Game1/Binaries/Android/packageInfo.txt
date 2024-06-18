@@ -1,0 +1,4 @@
+com.YourCompany.Metaverse_Game1
+1
+1.0
+name='com.epicgames.unreal.GameActivity.AppType' value=''

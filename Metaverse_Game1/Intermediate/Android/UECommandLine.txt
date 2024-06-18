@@ -1,0 +1,1 @@
+-project="../../../Metaverse_Game1/Metaverse_Game1.uproject" /Game/VRTemplate/Maps/VRTemplateMap -Messaging

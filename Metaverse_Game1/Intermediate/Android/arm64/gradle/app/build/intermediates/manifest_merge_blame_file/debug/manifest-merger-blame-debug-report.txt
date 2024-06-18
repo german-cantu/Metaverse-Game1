@@ -1,0 +1,610 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.YourCompany.Metaverse_Game1"
+4    android:installLocation="internalOnly"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="32"
+9-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml
+11
+12    <queries>
+12-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:2:3-13:13
+13        <intent>
+13-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:3:5-7:14
+14            <action android:name="android.intent.action.VIEW" />
+14-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:4:7-59
+14-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:4:15-56
+15
+16            <category android:name="android.intent.category.BROWSABLE" />
+16-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:5:7-68
+16-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:5:17-65
+17
+18            <data android:scheme="http" />
+18-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:6:7-37
+18-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:6:13-34
+19        </intent>
+20        <intent>
+20-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:8:5-12:14
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:4:7-59
+21-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:4:15-56
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:5:7-68
+23-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:5:17-65
+24
+25            <data android:scheme="https" />
+25-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:6:7-37
+25-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:6:13-34
+26        </intent>
+27
+28        <package android:name="com.google.android.gms" />
+28-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:8:9-58
+28-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:8:18-55
+29        <package android:name="com.android.vending" />
+29-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:9:9-55
+29-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:9:18-52
+30    </queries>
+31    <!-- Requirements -->
+32    <uses-feature
+32-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:87:3-76
+33        android:glEsVersion="0x00030000"
+33-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:87:17-49
+34        android:required="true" />
+34-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:87:50-73
+35
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:88:3-65
+36-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:88:20-62
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:89:3-79
+37-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:89:20-76
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:90:3-77
+38-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:90:20-74
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:91:3-66
+39-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:91:20-63
+40    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+40-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:92:3-71
+40-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:92:20-68
+41    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+41-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:93:3-74
+41-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:93:20-71
+42    <uses-permission android:name="com.android.vending.BILLING" />
+42-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:94:3-65
+42-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:94:20-62
+43    <!-- Supported texture compression formats (cooked) -->
+44    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+44-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:96:3-77
+44-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:96:24-74
+45
+46    <uses-permission
+46-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:97:3-87
+47        android:name="android.permission.FOREGROUND_SERVICE"
+47-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:97:20-72
+48        __line="66" />
+48-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:97:73-84
+49    <uses-permission
+49-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:98:3-97
+50        android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+50-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:98:20-82
+51        __line="67" />
+51-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:98:83-94
+52    <uses-permission
+52-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:99:3-87
+53        android:name="android.permission.POST_NOTIFICATIONS"
+53-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:99:20-72
+54        __line="68" />
+54-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:99:73-84
+55
+56    <uses-feature
+56-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:3-147
+57        android:name="android.hardware.vr.headtracking"
+57-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:17-64
+58        __ExcludeFromAFS="true"
+58-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:109-132
+59        __line="30"
+59-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:133-144
+60        android:required="true"
+60-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:85-108
+61        android:version="1" />
+61-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:100:65-84
+62    <uses-feature
+62-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:101:3-96
+63        android:name="android.hardware.usb.host"
+63-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:101:17-57
+64        __ExcludeFromAFS="true"
+64-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:101:58-81
+65        __line="73" />
+65-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:101:82-93
+66    <!-- Application Definition -->
+67    <application
+67-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:3-85:17
+68        android:name="com.epicgames.unreal.GameApplication"
+68-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:147-198
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.3.0] /Users/germancantu/.gradle/caches/transforms-3/87c712ceb280b89563e287f590257de7/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+70        android:debuggable="true"
+71        android:extractNativeLibs="true"
+71-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:114-146
+72        android:hardwareAccelerated="true"
+72-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:79-113
+73        android:hasCode="true"
+73-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:243-265
+74        android:icon="@drawable/icon"
+74-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:49-78
+75        android:label="@string/app_name"
+75-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:16-48
+76        android:requestLegacyExternalStorage="true" >
+76-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:15:199-242
+77        <activity
+77-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:5-24:16
+78            android:name="com.epicgames.unreal.GameActivity"
+78-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:15-63
+79            android:configChanges="mcc|mnc|uiMode|density|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard|navigation|touchscreen|locale|fontScale|layoutDirection"
+79-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:186-367
+80            android:debuggable="true"
+80-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:479-504
+81            android:exported="true"
+81-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:64-87
+82            android:label="@string/app_name"
+82-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:88-120
+83            android:launchMode="singleTask"
+83-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:403-434
+84            android:resizeableActivity="false"
+84-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:368-402
+85            android:screenOrientation="sensorLandscape"
+85-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:435-478
+86            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+86-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:16:121-185
+87            <meta-data
+87-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:17:7-79
+88                android:name="android.app.lib_name"
+88-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:17:18-53
+89                android:value="Unreal" />
+89-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:17:54-76
+90
+91            <intent-filter>
+91-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:18:7-22:23
+92                <action android:name="android.intent.action.MAIN" />
+92-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:19:9-61
+92-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:19:17-58
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:20:9-69
+94-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:20:19-66
+95                <category
+95-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:21:9-90
+96                    android:name="com.oculus.intent.category.VR"
+96-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:21:19-63
+97                    __ExcludeFromAFS="true" />
+97-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:21:64-87
+98            </intent-filter>
+99
+100            <meta-data
+100-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:23:7-105
+101                android:name="com.oculus.vr.focusaware"
+101-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:23:18-57
+102                __ExcludeFromAFS="true"
+102-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:23:79-102
+103                android:value="true" />
+103-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:23:58-78
+104        </activity>
+105        <activity android:name="com.YourCompany.Metaverse_Game1.DownloaderActivity" />
+105-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:25:5-52
+105-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:25:15-49
+106
+107        <meta-data
+107-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:26:5-103
+108            android:name="com.epicgames.unreal.GameActivity.EngineVersion"
+108-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:26:16-78
+109            android:value="5.4.2" />
+109-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:26:79-100
+110        <meta-data
+110-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:27:5-114
+111            android:name="com.epicgames.unreal.GameActivity.EngineBranch"
+111-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:27:16-77
+112            android:value="++UE5+Release-5.4" />
+112-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:27:78-111
+113        <meta-data
+113-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:28:5-106
+114            android:name="com.epicgames.unreal.GameActivity.ProjectVersion"
+114-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:28:16-79
+115            android:value="1.0.0.0" />
+115-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:28:80-103
+116        <meta-data
+116-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:29:5-107
+117            android:name="com.epicgames.unreal.GameActivity.DepthBufferPreference"
+117-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:29:16-86
+118            android:value="0" />
+118-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:29:87-104
+119        <meta-data
+119-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:30:5-111
+120            android:name="com.epicgames.unreal.GameActivity.bPackageDataInsideApk"
+120-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:30:16-86
+121            android:value="false" />
+121-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:30:87-108
+122        <meta-data
+122-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:31:5-109
+123            android:name="com.epicgames.unreal.GameActivity.bVerifyOBBOnStartUp"
+123-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:31:16-84
+124            android:value="false" />
+124-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:31:85-106
+125        <meta-data
+125-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:32:5-102
+126            android:name="com.epicgames.unreal.GameActivity.bShouldHideUI"
+126-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:32:16-78
+127            android:value="true" />
+127-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:32:79-99
+128        <meta-data
+128-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:33:5-111
+129            android:name="com.epicgames.unreal.GameActivity.ProjectName"
+129-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:33:16-76
+130            android:value="Metaverse_Game1" />
+130-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:33:77-108
+131        <meta-data
+131-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:34:5-92
+132            android:name="com.epicgames.unreal.GameActivity.AppType"
+132-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:34:16-72
+133            android:value="" />
+133-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:34:73-89
+134        <meta-data
+134-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:35:5-102
+135            android:name="com.epicgames.unreal.GameActivity.bHasOBBFiles"
+135-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:35:16-77
+136            android:value="false" />
+136-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:35:78-99
+137        <meta-data
+137-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:36:5-114
+138            android:name="com.epicgames.unreal.GameActivity.BuildConfiguration"
+138-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:36:16-83
+139            android:value="Development" />
+139-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:36:84-111
+140        <meta-data
+140-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:37:5-102
+141            android:name="com.epicgames.unreal.GameActivity.CookedFlavors"
+141-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:37:16-78
+142            android:value="ASTC" />
+142-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:37:79-99
+143        <meta-data
+143-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:38:5-112
+144            android:name="com.epicgames.unreal.GameActivity.bValidateTextureFormats"
+144-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:38:16-88
+145            android:value="true" />
+145-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:38:89-109
+146        <meta-data
+146-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:39:5-109
+147            android:name="com.epicgames.unreal.GameActivity.bUseExternalFilesDir"
+147-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:39:16-85
+148            android:value="true" />
+148-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:39:86-106
+149        <meta-data
+149-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:40:5-105
+150            android:name="com.epicgames.unreal.GameActivity.bPublicLogFiles"
+150-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:40:16-80
+151            android:value="false" />
+151-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:40:81-102
+152        <meta-data
+152-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:41:5-107
+153            android:name="com.epicgames.unreal.GameActivity.bUseDisplayCutout"
+153-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:41:16-82
+154            android:value="false" />
+154-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:41:83-104
+155        <meta-data
+155-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:42:5-99
+156            android:name="com.epicgames.unreal.GameActivity.bAllowIMU"
+156-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:42:16-74
+157            android:value="false" />
+157-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:42:75-96
+158        <meta-data
+158-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:43:5-104
+159            android:name="com.epicgames.unreal.GameActivity.bSupportsVulkan"
+159-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:43:16-80
+160            android:value="true" />
+160-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:43:81-101
+161        <meta-data
+161-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:44:5-100
+162            android:name="com.epicgames.unreal.GameActivity.PropagateAlpha"
+162-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:44:16-79
+163            android:value="0" />
+163-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:44:80-97
+164        <meta-data
+164-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:45:5-144
+165            android:name="com.epicgames.unreal.GameActivity.StartupPermissions"
+165-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:45:16-83
+166            android:value="android.permission.WRITE_EXTERNAL_STORAGE" />
+166-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:45:84-141
+167        <meta-data
+167-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:46:5-85
+168            android:name="android.supports_size_changes"
+168-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:46:16-60
+169            android:value="false" />
+169-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:46:61-82
+170        <meta-data
+170-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:47:5-100
+171            android:name="com.google.android.gms.games.APP_ID"
+171-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:47:16-66
+172            android:value="@string/app_id" />
+172-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:47:67-97
+173        <meta-data
+173-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:48:5-118
+174            android:name="com.google.android.gms.version"
+174-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:48:16-61
+175            android:value="@integer/google_play_services_version" />
+175-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:48:62-115
+176
+177        <activity
+177-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:49:5-180
+178            android:name="com.google.android.gms.ads.AdActivity"
+178-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:49:15-67
+179            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+179-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:49:68-177
+180
+181        <meta-data
+181-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:50:5-106
+182            android:name="com.oculus.supportedDevices"
+182-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:50:16-58
+183            android:value="quest|quest2|questpro|quest3" />
+183-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:50:59-103
+184
+185        <service
+185-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:51:5-119
+186            android:name="com.epicgames.unreal.psoservices.OGLProgramService"
+186-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:51:14-79
+187            android:process=":psoprogramservice" />
+187-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:51:80-116
+188        <service
+188-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:52:5-121
+189            android:name="com.epicgames.unreal.psoservices.OGLProgramService1"
+189-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:52:14-80
+190            android:process=":psoprogramservice1" />
+190-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:52:81-118
+191        <service
+191-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:53:5-121
+192            android:name="com.epicgames.unreal.psoservices.OGLProgramService2"
+192-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:53:14-80
+193            android:process=":psoprogramservice2" />
+193-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:53:81-118
+194        <service
+194-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:54:5-121
+195            android:name="com.epicgames.unreal.psoservices.OGLProgramService3"
+195-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:54:14-80
+196            android:process=":psoprogramservice3" />
+196-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:54:81-118
+197        <service
+197-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:55:5-121
+198            android:name="com.epicgames.unreal.psoservices.OGLProgramService4"
+198-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:55:14-80
+199            android:process=":psoprogramservice4" />
+199-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:55:81-118
+200        <service
+200-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:56:5-121
+201            android:name="com.epicgames.unreal.psoservices.OGLProgramService5"
+201-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:56:14-80
+202            android:process=":psoprogramservice5" />
+202-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:56:81-118
+203        <service
+203-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:57:5-121
+204            android:name="com.epicgames.unreal.psoservices.OGLProgramService6"
+204-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:57:14-80
+205            android:process=":psoprogramservice6" />
+205-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:57:81-118
+206        <service
+206-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:58:5-121
+207            android:name="com.epicgames.unreal.psoservices.OGLProgramService7"
+207-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:58:14-80
+208            android:process=":psoprogramservice7" />
+208-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:58:81-118
+209        <service
+209-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:59:5-122
+210            android:name="com.epicgames.unreal.psoservices.VulkanProgramService"
+210-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:59:14-82
+211            android:process=":psoprogramservice" />
+211-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:59:83-119
+212        <service
+212-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:60:5-124
+213            android:name="com.epicgames.unreal.psoservices.VulkanProgramService1"
+213-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:60:14-83
+214            android:process=":psoprogramservice1" />
+214-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:60:84-121
+215        <service
+215-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:61:5-124
+216            android:name="com.epicgames.unreal.psoservices.VulkanProgramService2"
+216-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:61:14-83
+217            android:process=":psoprogramservice2" />
+217-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:61:84-121
+218        <service
+218-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:62:5-124
+219            android:name="com.epicgames.unreal.psoservices.VulkanProgramService3"
+219-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:62:14-83
+220            android:process=":psoprogramservice3" />
+220-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:62:84-121
+221        <service
+221-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:63:5-124
+222            android:name="com.epicgames.unreal.psoservices.VulkanProgramService4"
+222-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:63:14-83
+223            android:process=":psoprogramservice4" />
+223-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:63:84-121
+224        <service
+224-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:64:5-124
+225            android:name="com.epicgames.unreal.psoservices.VulkanProgramService5"
+225-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:64:14-83
+226            android:process=":psoprogramservice5" />
+226-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:64:84-121
+227        <service
+227-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:65:5-124
+228            android:name="com.epicgames.unreal.psoservices.VulkanProgramService6"
+228-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:65:14-83
+229            android:process=":psoprogramservice6" />
+229-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:65:84-121
+230        <service
+230-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:66:5-124
+231            android:name="com.epicgames.unreal.psoservices.VulkanProgramService7"
+231-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:66:14-83
+232            android:process=":psoprogramservice7" />
+232-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:66:84-121
+233        <service android:name="com.YourCompany.Metaverse_Game1.OBBDownloaderService" />
+233-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:67:5-52
+233-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:67:14-49
+234
+235        <receiver android:name="com.YourCompany.Metaverse_Game1.AlarmReceiver" />
+235-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:68:5-46
+235-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:68:15-43
+236        <receiver android:name="com.epicgames.unreal.LocalNotificationReceiver" />
+236-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:69:5-79
+236-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:69:15-76
+237        <receiver android:name="com.epicgames.unreal.CellularReceiver" />
+237-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:70:5-70
+237-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:70:15-67
+238        <receiver
+238-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:71:5-75:16
+239            android:name="com.epicgames.unreal.MulticastBroadcastReceiver"
+239-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:71:15-77
+240            android:exported="true" >
+240-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:71:78-101
+241            <intent-filter>
+241-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:72:7-74:23
+242                <action android:name="com.android.vending.INSTALL_REFERRER" />
+242-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:73:9-71
+242-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:73:17-68
+243            </intent-filter>
+244        </receiver>
+245
+246        <meta-data
+246-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:76:5-73
+247            android:name="android.max_aspect"
+247-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:76:16-49
+248            android:value="2.10" />
+248-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:76:50-70
+249
+250        <service
+250-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:77:5-154
+251            android:name="com.epicgames.unreal.RemoteFileManagerService"
+251-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:77:14-74
+252            __line="71"
+252-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:77:140-151
+253            android:exported="true"
+253-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:77:116-139
+254            android:foregroundServiceType="dataSync" />
+254-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:77:75-115
+255
+256        <activity
+256-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:5-82:16
+257            android:name="com.epicgames.unreal.RemoteFileManagerActivity"
+257-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:15-76
+258            __line="72"
+258-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:183-194
+259            android:exported="true"
+259-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:77-100
+260            android:screenOrientation="sensor"
+260-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:101-135
+261            android:theme="@android:style/Theme.NoDisplay" >
+261-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:78:136-182
+262            <intent-filter __line="73" >
+262-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:79:7-81:23
+262-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:79:22-33
+263                <action
+263-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:80:9-101
+264                    android:name="com.epicgames.unreal.RemoteFileManager.intent.COMMAND2"
+264-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:80:17-86
+265                    __line="74" />
+265-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:80:87-98
+266            </intent-filter>
+267        </activity>
+268
+269        <meta-data
+269-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:83:5-129
+270            android:name="com.epicgames.unreal.RemoteFileManager.bAllowNetworkConnection"
+270-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:83:16-93
+271            __line="85"
+271-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:83:115-126
+272            android:value="true" />
+272-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:83:94-114
+273        <meta-data
+273-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:84:5-98
+274            android:name="com.oculus.ossplash"
+274-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:84:16-50
+275            __ExcludeFromAFS="true"
+275-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:84:72-95
+276            android:value="true" />
+276-->/Users/germancantu/Documents/GitHub/Metaverse-Game1/Metaverse_Game1/Intermediate/Android/arm64/gradle/app/src/main/AndroidManifest.xml:84:51-71
+277
+278        <activity
+278-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+279            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+279-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+280            android:excludeFromRecents="true"
+280-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+281            android:exported="false"
+281-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+282-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+283        <!--
+284            Service handling Google Sign-In user revocation. For apps that do not integrate with
+285            Google Sign-In, this service will never be started.
+286        -->
+287        <service
+287-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+288            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+288-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+289            android:exported="true"
+289-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+290            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+290-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+291            android:visibleToInstantApps="true" />
+291-->[com.google.android.gms:play-services-auth:20.7.0] /Users/germancantu/.gradle/caches/transforms-3/0184f6f0853732490b3792eefec53ffb/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+292
+293        <provider
+293-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:13:9-17:38
+294            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
+294-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:14:13-87
+295            android:authorities="com.YourCompany.Metaverse_Game1.playgamesinitprovider"
+295-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:15:13-73
+296            android:exported="false"
+296-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:16:13-37
+297            android:initOrder="99" />
+297-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:17:13-35
+298
+299        <activity
+299-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:19:9-22:62
+300            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
+300-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:20:13-103
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:21:13-37
+302            android:theme="@style/Theme.Games.Transparent" />
+302-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:22:13-59
+303
+304        <meta-data
+304-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:24:9-26:62
+305            android:name="com.google.android.gms.games.version"
+305-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:25:13-64
+306            android:value="@string/play_games_sdk_version" />
+306-->[com.google.android.gms:play-services-games-v2:19.0.0] /Users/germancantu/.gradle/caches/transforms-3/1801f66260de0ac517c79c4ef2b1ee96/transformed/jetified-play-services-games-v2-19.0.0/AndroidManifest.xml:26:13-59
+307
+308        <activity
+308-->[com.google.android.gms:play-services-base:18.0.1] /Users/germancantu/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+309            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+309-->[com.google.android.gms:play-services-base:18.0.1] /Users/germancantu/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+310            android:exported="false"
+310-->[com.google.android.gms:play-services-base:18.0.1] /Users/germancantu/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+311-->[com.google.android.gms:play-services-base:18.0.1] /Users/germancantu/.gradle/caches/transforms-3/13e38bc0a68c75c157006028828b6577/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+312
+313        <provider
+313-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/germancantu/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+314            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+314-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/germancantu/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+315            android:authorities="com.YourCompany.Metaverse_Game1.lifecycle-process"
+315-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/germancantu/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+316            android:exported="false"
+316-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/germancantu/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+317            android:multiprocess="true" />
+317-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/germancantu/.gradle/caches/transforms-3/93cdecdf35e0ebb0a6747a982095a512/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+318    </application>
+319
+320</manifest>
