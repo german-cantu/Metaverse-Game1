@@ -1,3 +1,1 @@
-Metaverse_Game1/Content/VRTemplate/Input/IMC_CommandTalk.uasset
-Metaverse_Game1/Content/VRTemplate/Input/IMC_CommandTalk.uexp
 Metaverse_Game1/Saved/Logs/Metaverse_Game1.log
