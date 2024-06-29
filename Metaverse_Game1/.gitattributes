@@ -1,0 +1,2 @@
+Metaverse_Game1/Binaries/Android/*.so filter=lfs diff=lfs merge=lfs -text
+Metaverse_Game1/Intermediate/Android/**/*.so filter=lfs diff=lfs merge=lfs -text
