@@ -1,3 +1,0 @@
-Engine/Content/Renderer/TessellationTable.bin	2024-06-10T02:50:45.821Z
-Engine/Source/ThirdParty/Oculus/OculusOpenXRLoader/OculusOpenXRLoader/Lib/arm64-v8a/libopenxr_loader.so	2024-06-10T02:59:43.705Z
-UECommandLine.txt	A52C56A67E90B2B8C49993740EC7EF35
